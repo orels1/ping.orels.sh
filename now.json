@@ -1,0 +1,6 @@
+{
+  "name": "ping.orels",
+  "alias": ["ping.orels.sh"],
+  "type": "static",
+  "public": true
+}
