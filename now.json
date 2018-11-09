@@ -7,6 +7,10 @@
     {
       "src": "/<url>",
       "dest": "/src/$url"
+    },
+    {
+      "src": "/",
+      "dest": "/src"
     }
   ],
   "public": true
