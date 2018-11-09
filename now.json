@@ -2,6 +2,6 @@
   "version": 2,
   "name": "ping.orels",
   "alias": ["ping.orels.sh"],
-  "builds": [{ "src": "src", "use": "@now/static" }],
+  "builds": [{ "src": "src/*", "use": "@now/static" }],
   "public": true
 }
