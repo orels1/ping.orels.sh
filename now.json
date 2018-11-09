@@ -5,7 +5,7 @@
   "builds": [{ "src": "src/*", "use": "@now/static" }],
   "routes": [
     {
-      "src": "/",
+      "src": "/$",
       "dest": "/src/index.html"
     }
   ],
