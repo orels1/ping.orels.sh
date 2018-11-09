@@ -3,5 +3,9 @@
   "name": "ping.orels",
   "alias": ["ping.orels.sh"],
   "builds": [{ "src": "src/*", "use": "@now/static" }],
+  "routes": {
+    "src": "/",
+    "dest": "/src"
+  },
   "public": true
 }
