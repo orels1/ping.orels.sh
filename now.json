@@ -5,8 +5,8 @@
   "builds": [{ "src": "src/*", "use": "@now/static" }],
   "routes": [
     {
-      "src": "/",
-      "dest": "/src"
+      "src": "/*",
+      "dest": "/src/$1"
     }
   ],
   "public": true
